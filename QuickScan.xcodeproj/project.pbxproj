@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		713947472361CB9600626699 /* CodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713947462361CB9600626699 /* CodeScanner.swift */; };
 		713947492361CBC400626699 /* AVCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713947482361CBC400626699 /* AVCodeScanner.swift */; };
+		7139474D2361D0E200626699 /* ScannedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7139474C2361D0E200626699 /* ScannedCode.swift */; };
 		719C0D0F2361C56600932AAE /* QuickScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719C0D052361C56600932AAE /* QuickScan.framework */; };
 		719C0D142361C56600932AAE /* QuickScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C0D132361C56600932AAE /* QuickScanTests.swift */; };
 		719C0D162361C56600932AAE /* QuickScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 719C0D082361C56600932AAE /* QuickScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		713947462361CB9600626699 /* CodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanner.swift; sourceTree = "<group>"; };
 		713947482361CBC400626699 /* AVCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCodeScanner.swift; sourceTree = "<group>"; };
+		7139474C2361D0E200626699 /* ScannedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedCode.swift; sourceTree = "<group>"; };
 		719C0D052361C56600932AAE /* QuickScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		719C0D082361C56600932AAE /* QuickScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickScan.h; sourceTree = "<group>"; };
 		719C0D092361C56600932AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				719C0D092361C56600932AAE /* Info.plist */,
 				713947462361CB9600626699 /* CodeScanner.swift */,
 				713947482361CBC400626699 /* AVCodeScanner.swift */,
+				7139474C2361D0E200626699 /* ScannedCode.swift */,
 			);
 			path = QuickScan;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				713947492361CBC400626699 /* AVCodeScanner.swift in Sources */,
 				713947472361CB9600626699 /* CodeScanner.swift in Sources */,
+				7139474D2361D0E200626699 /* ScannedCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
