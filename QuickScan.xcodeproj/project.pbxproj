@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713947472361CB9600626699 /* CodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713947462361CB9600626699 /* CodeScanner.swift */; };
+		713947492361CBC400626699 /* AVCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713947482361CBC400626699 /* AVCodeScanner.swift */; };
 		719C0D0F2361C56600932AAE /* QuickScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719C0D052361C56600932AAE /* QuickScan.framework */; };
 		719C0D142361C56600932AAE /* QuickScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719C0D132361C56600932AAE /* QuickScanTests.swift */; };
 		719C0D162361C56600932AAE /* QuickScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 719C0D082361C56600932AAE /* QuickScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		713947462361CB9600626699 /* CodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanner.swift; sourceTree = "<group>"; };
+		713947482361CBC400626699 /* AVCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCodeScanner.swift; sourceTree = "<group>"; };
 		719C0D052361C56600932AAE /* QuickScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		719C0D082361C56600932AAE /* QuickScan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickScan.h; sourceTree = "<group>"; };
 		719C0D092361C56600932AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				719C0D082361C56600932AAE /* QuickScan.h */,
 				719C0D092361C56600932AAE /* Info.plist */,
+				713947462361CB9600626699 /* CodeScanner.swift */,
+				713947482361CBC400626699 /* AVCodeScanner.swift */,
 			);
 			path = QuickScan;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 				TargetAttributes = {
 					719C0D042361C56600932AAE = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					719C0D0D2361C56600932AAE = {
 						CreatedOnToolsVersion = 11.0;
@@ -263,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713947492361CBC400626699 /* AVCodeScanner.swift in Sources */,
+				713947472361CB9600626699 /* CodeScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +446,7 @@
 		719C0D1A2361C56600932AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N9D2384283;
@@ -453,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alyyakan.QuickScan;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +472,7 @@
 		719C0D1B2361C56600932AAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N9D2384283;
@@ -485,6 +497,7 @@
 		719C0D1D2361C56600932AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9D2384283;
 				INFOPLIST_FILE = QuickScanTests/Info.plist;
@@ -503,6 +516,7 @@
 		719C0D1E2361C56600932AAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N9D2384283;
 				INFOPLIST_FILE = QuickScanTests/Info.plist;
